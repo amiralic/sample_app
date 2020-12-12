@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   get 'users/new'
   root :to => 'pages#home'
+  get '/signup', :to => 'users#new'
   get '/contact', :to => 'pages#contact'
   get '/about', :to => 'pages#about'
   get '/help', :to => 'pages#help'

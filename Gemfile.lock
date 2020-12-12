@@ -194,7 +194,7 @@ GEM
       activesupport (>= 4.2)
       rack-proxy (>= 0.6.1)
       railties (>= 4.2)
-    webrat (0.7.3)
+    webrat (0.7.1)
       nokogiri (>= 1.2.0)
       rack (>= 1.0)
       rack-test (>= 0.5.3)
@@ -225,7 +225,7 @@ DEPENDENCIES
   tzinfo-data
   web-console (>= 3.3.0)
   webpacker (~> 4.0)
-  webrat
+  webrat (= 0.7.1)
 
 RUBY VERSION
    ruby 2.7.0p0
